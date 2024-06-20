@@ -129,6 +129,18 @@
   --link-decoration: none;
   --link-external-decoration: none;
   --embed-padding: 0 0 0 var(--size-4-4);
+
+  --code-normal: var(--green);
+  --code-comment: var(--gray-1);
+  --code-function: var(--blue);
+  --code-important: var(--orange);
+  --code-keyword: var(--purple);
+  --code-operator: var(--purple);
+  --code-property: var(--aqua);
+  --code-punctuation: var(--gray-2);
+  --code-string: var(--green);
+  --code-tag: var(--green);
+  --code-value: var(--orange);
 }
 
 /* Search */
@@ -275,65 +287,4 @@ pre[class*='language-'] {
   padding: .1em;
   border-radius: .3em;
   white-space: normal;
-}
-
-.token.comment, .token.prolog, .token.doctype, .token.cdata,
-.HyperMD-codeblock .cm-comment {
-  color: var(--gray-1);
-}
-
-.token.punctuation,
-.HyperMD-codeblock .cm-hmd-codeblock, .HyperMD-codeblock .cm-bracket {
-  color: var(--gray-2);
-}
-
-.token.selector, .token.tag,
-.HyperMD-codeblock .cm-tag, .HyperMD-codeblock .cm-property, .HyperMD-codeblock .cm-meta, .HyperMD-codeblock .cm-qualifier, .HyperMD-codeblock .cm-header, .HyperMD-codeblock .cm-quote, .HyperMD-codeblock .cm-hr, .HyperMD-codeblock .cm-link {
-  color: var(--red);
-}
-
-.token.property, .token.boolean, .token.number, .token.constant, .token.symbol, .token.attr-name, .token.deleted,
-.HyperMD-codeblock .cm-number, .HyperMD-codeblock .cm-atom, .HyperMD-codeblock .cm-attribute {
-  color: var(--orange);
-}
-
-.token.string, .token.char, .token.attr-value, .token.builtin, .token.inserted,
-.HyperMD-codeblock .cm-string, .HyperMD-codeblock .cm-builtin {
-  color: var(--green);
-}
-
-.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string,
-.HyperMD-codeblock .cm-string-2, .HyperMD-codeblock .cm-operator {
-  color: var(--aqua);
-}
-
-.token.atrule, .token.keyword,
-.HyperMD-codeblock .cm-keyword {
-  color: var(--purple);
-}
-
-.token.function, .token.macro.property,
-.HyperMD-codeblock .cm-def, .HyperMD-codeblock .cm-variable {
-  color: var(--blue);
-}
-
-.token.class-name,
-.HyperMD-codeblock .cm-variable-2, .HyperMD-codeblock .cm-variable-3 {
-  color: var(--yellow);
-}
-
-.token.regex, .token.important, .token.variable {
-  color: var(--purple);
-}
-
-.token.important, .token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-.token.entity {
-  cursor: help;
 }

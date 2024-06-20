@@ -1,7 +1,7 @@
 {
 	"name": "Atom",
-	"version": "2.0.0",
-	"minAppVersion": "2.0.0",
+	"version": "2.0.1",
+	"minAppVersion": "2.0.1",
 	"author": "kognise",
 	"authorUrl": "https://github.com/kognise",
   "description": "A theme for Obsidian based on Atom's One Dark and One Light themes."
