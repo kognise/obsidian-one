@@ -263,6 +263,13 @@ code[class*='language-'], pre[class*='language-'] {
   hyphens: none !important;
 }
 
+/* Wrap code when exporting PDF */
+@media print {
+  code[class*='language-'] {
+    white-space: pre-wrap !important;
+  }
+}
+
 pre[class*='language-'] {
   /* Code blocks */
   padding: 1em !important;
